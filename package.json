@@ -1,0 +1,24 @@
+{
+  "name": "stellar-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "patch-package"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^9.1.2",
+    "stellar-library": "file:",
+    "stellar-sdk": "10.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.6.0",
+    "patch-package": "^8.0.0",
+    "postinstall-postinstall": "^2.1.0",
+    "typescript": "^5.6.2"
+  }
+}
